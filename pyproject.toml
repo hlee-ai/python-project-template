@@ -1,0 +1,53 @@
+[project]
+name = "python-project-template"
+version = "0.0.1"
+description = "A template for python projects."
+
+authors = [
+    { name="Hosung Lee", email="hlee24@snu.ac.kr" }
+]
+
+requires-python = ">=3.8"
+
+readme = "README.md"
+
+dependencies = []
+
+[project.optional-dependencies]
+dev = [
+    "black",
+    "isort",
+    "flake8",
+    "flake8-bugbear",
+    "pytest",
+    "pre-commit",
+    "commitizen",
+    "pipreqs"
+]
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.2.4"
+tag_format = "v$version"
+
+[tool.black]
+line-length = 100
+target-version = ["py38"]
+skip-string-normalization = false
+
+[tool.isort]
+profile = "black"
+line_length = 100
