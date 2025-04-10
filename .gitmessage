@@ -1,0 +1,34 @@
+# 🎯 Commit Message Guide (Conventional Commits)
+#
+# Format:
+# <type>(optional scope): <short summary>
+#
+# Examples:
+# feat(auth): add user login API
+# fix(ui): resolve alignment issue in navbar
+# docs(readme): update installation instructions
+#
+# Commonly used types:
+# feat      : A new feature
+# fix       : A bug fix
+# docs      : Documentation only changes
+# style     : Code style (formatting, missing semi colons, etc)
+# refactor  : Code changes that neither fix a bug nor add a feature
+# test      : Adding or updating tests
+# chore     : Other changes that don't modify src or test files
+# perf      : Performance improvements
+# ci        : CI configuration files and scripts
+# build     : Build system or external dependency changes
+# revert    : Revert a previous commit
+#
+# Body (optional): Add more detailed explanatory text, if necessary.
+# Leave one blank line between summary and body.
+#
+# Example:
+# Added JWT-based authentication and user session handling.
+#
+# Footer (optional): Use to reference issues or breaking changes.
+#
+# Examples:
+# BREAKING CHANGE: login system now uses OAuth 2.0
+# Closes #123
