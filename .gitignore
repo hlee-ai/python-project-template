@@ -1,0 +1,128 @@
+# ========================
+# 🐍 Python bytecode
+# ========================
+__pycache__/
+*.py[cod]
+*$py.class
+
+# ========================
+# 🛠️ C extensions
+# ========================
+*.so
+
+# ========================
+# 📦 Distribution / packaging
+# ========================
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# ========================
+# 🧪 Virtual environments
+# ========================
+venv/
+ENV/
+env/
+.venv/
+.ENV/
+.venv.bak/
+
+# ========================
+# 📦 Dependency management
+# ========================
+
+# pipenv
+Pipfile.lock
+
+# poetry
+poetry.lock
+
+# pyenv
+.python-version
+
+# Do NOT ignore requirements.txt files!
+# requirements*.txt   ❌ removed!
+
+# ========================
+# 🧪 Testing & coverage
+# ========================
+.pytest_cache/
+.mypy_cache/
+.dmypy.json
+dmypy.json
+
+# coverage
+.coverage
+.coverage.*
+.cache  # note: if this conflicts, rename to .coverage_cache
+nosetests.xml
+coverage.xml
+*.cover
+.hypothesis/
+
+# ========================
+# 🧠 Type checker tools
+# ========================
+.pyre/
+.pytype/
+pylint-report.txt
+pylint-global.txt
+
+# ========================
+# 🔁 pre-commit
+# ========================
+.pre-commit/
+# DO NOT ignore .pre-commit-config.yaml (used for linting setup)
+
+# ========================
+# 🧑‍💻 Editor & IDE configs
+# ========================
+*.sublime-workspace
+*.sublime-project
+.vscode/
+.idea/
+
+# ========================
+# 🍎 macOS
+# ========================
+.DS_Store
+
+# ========================
+# 📄 Logs
+# ========================
+*.log
+
+# ========================
+# 📓 Jupyter
+# ========================
+.ipynb_checkpoints
+
+# ========================
+# 🔐 Env files
+# ========================
+.env
+.env.*
+
+# ========================
+# 🗃️ SQLite DB
+# ========================
+*.sqlite3
+*.db
+
+# ========================
+# 📦 Others
+# ========================
+__pypackages__/
